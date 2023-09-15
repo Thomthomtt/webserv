@@ -25,12 +25,16 @@
                     </ul>
             </li>
             <li><a href="#">Aula 2</a>
-                    <ul>    <li><a href="calculadora.php">Calculadora</a></li> 
-                            <li><a href="tabuada.php">Tabuada</a></li>
+                    <ul>    <li><a href="calculadora.php">Calculadora</a></li>                            <li><a href="tabuada.php">Tabuada</a></li>                    </ul>	    </li>
+	<li><a href="#">Aula 3</a>
+                    <ul>    <li><a href="data_hora.php">Relógio</a></li> 
                     </ul>    
-            </li>
-        <li><a href="#">Aula 3</a></li>
-    
+	</li>
+	<li><a href="#">Aula 4</a>
+                    <ul>    <li><a href="estrutura_repeticao.php">Tabela</a></li> 
+                    </ul>    
+	</li>
+	</ul>
     </div>
     </div>
 </body>

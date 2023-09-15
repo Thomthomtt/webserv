@@ -13,11 +13,12 @@
         <h1 id="titulo">Relógio e Data</h1>
     <fieldset class="campo">
         <div class="caixa">
-            <label for="data">Informe um dia da semana de 1 a 7:</label>
+            <label for="data"style="font-size:15px;">Informe um </label>
+            <label for="data"style="font-size:15px;">dia da week:</label>
             <input type="number" name="data" id="data">
         </div>
         <div class="caixa">
-            <label for="hora">Informe o Horario:</label>
+            <label for="hora"style="font-size:larger;">Informe o Horario:</label>
             <input type="number" name="hora" id="hora" >
         </div>
         <button type="submit" id="botao">
