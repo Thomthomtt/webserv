@@ -1,4 +1,9 @@
 <?php
+include_once('index.php')
+?>
+
+<h1 style="aling-items:center;">
+<?php
 
 $_numero1 = $_POST["num1"];
 $_numero2 = $_POST["num2"];
@@ -11,4 +16,7 @@ echo ("A soma é:".$_soma. "<br>");
 echo ("A subtração é:".$_subtracao. "<br>");
 echo ("A multiplicação é:".$_multiplicacao. "<br>");
 echo ("A divisão é:".$_divisao. "<br>");
-?>  
+
+?>
+</h1>
+

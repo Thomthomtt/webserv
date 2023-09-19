@@ -1,7 +1,10 @@
 <?php
 include_once('index.php')
 ?>
+
+<h1 style="text-align:center;">
 <?php
+
 $_data = $_POST["data"];
 $_hora = $_POST["hora"];
 
@@ -32,6 +35,7 @@ if ($_date<1 or $_date>7){
 	echo("Erro");
 }
 }
+echo ("<br>");
 if ($_hora>=0 && $_hora<=6){
 	echo("Boa Madrugada!");
 } elseif ($_hora>=6 && $_hora<12){
@@ -42,3 +46,4 @@ if ($_hora>=0 && $_hora<=6){
         echo ("Boa Noite!");
 }
 ?>
+</h1>

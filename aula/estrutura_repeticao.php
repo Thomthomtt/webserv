@@ -1,14 +1,16 @@
-
-    <table border="1px">
+<?php
+include_once('index.php')
+?>
+    <table border="1px" >
     <tr>
             <td> Item </td>    
             <td> Descrição </td>
             <td> a </td>
             <td> b </td>
-        </tr>
-      
+        </tr>      
 
     
+<p style="text-align:center;">
 <?php
 $desc = "Descrição";
     for ($i=0; $i<=100; $i++){
@@ -26,3 +28,4 @@ $desc = "Descrição";
     }
 
 ?>
+</p>

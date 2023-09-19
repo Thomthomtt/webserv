@@ -1,3 +1,8 @@
+<?php
+include_once('index.php')
+?>
+
+<h1 style="text-align:center;">
 <?php 
 $_usuario = $_POST["numero"];
 echo ("Tabuada do Número"."<br>"); 
@@ -13,3 +18,4 @@ echo (" 8 X ".$_usuario*8 ."<br>");
 echo (" 9 X ".$_usuario*9 ."<br>");
 echo (" 10 X ".$_usuario*10 ."<br>");
 ?>
+</h1>
